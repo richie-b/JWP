@@ -31,3 +31,5 @@ Page objects are located in src/Map
 src/Nav contains code to navigate around a page, including methods to make navigation easier (example the login method)
 src/Test contains the actual tests and assertions.
 
+Run TestNG when testng.xml is in project home folder (make sure selenium server and all eclipse testng libraries are copied into the lib folder)
+java -cp .\lib\*;.\target\classes org.testng.TestNG testng.xml
